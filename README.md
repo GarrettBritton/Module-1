@@ -1,4 +1,4 @@
-# <Module 1>
+#Module 1
 
 ## Description
 This project was a challange to refractor the starting code, ensuring that it still looked and functioned the same as provided screenshot.
