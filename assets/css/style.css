@@ -1,13 +1,16 @@
+/* formatting for entire page */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/*background color*/
 body {
     background-color: #d9dcd6;
 }
 
+/*header formatting, font, text color, and background color*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +18,18 @@ body {
     color: #ffffff;
 }
 
+/*header display and font size*/
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/*changing text color for id: seo*/
 #seo {
     color: #d9dcd6;
 }
 
+/*formatting, font and font size for navigation bar*/
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,21 +38,25 @@ body {
     font-size: 20px;
 }
 
+/*adding display, and formatting for list*/
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
     list-style-type: none;
 }
 
+/*setting text color for all "a" tags*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/*setting font size for all "p" tags*/
 p {
     font-size: 16px;
 }
 
+/*formatting, size, and position for largest photo on page*/
 .hero {
     height: 800px;
     width: 100%;
@@ -57,26 +67,59 @@ p {
     
 }
 
+/*setting image positions with float-left class*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/*setting image position with float-right class*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/*formatting, display and with of the content class*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/*formatting, size, font, background color and text color for id below*/
+#search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/*formatting, size, font, background color and text color for id below*/
+#online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/*formatting, size, font, background color and text color for id below*/
+#social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/*formatting, positioning, size, font, and background color for section on right of page -benefits*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
-    clear: both;
     float: right;
     width: 20%;
     height: 100%;
@@ -84,69 +127,49 @@ p {
     background-color: #2589bd;
 }
 
+/*text formatting and spacing for headers in benefits class*/
 .benefits h3 {
     margin-bottom: 10px;
     text-align: center;
 } 
 
+/*image formatting and size for images in benefits class*/
 .benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/*spacing and text color for class below*/
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/*spacing and text color for class below*/
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/*spacing and text color for class below*/
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
+/*size for images in content class*/
 .content img {
     max-height: 200px;
 }
 
+/*spacing and font size for all header 2's in content class*/
 .content h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/*spacing, font, and alignment for the footer*/
 .footer {
     padding: 30px;
     clear: both;
@@ -154,6 +177,8 @@ p {
     text-align: center;
 }
 
+
+/*font size for all header 2's in footer*/
 .footer h2 {
     font-size: 20px;
 }
