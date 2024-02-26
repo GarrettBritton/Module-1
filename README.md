@@ -7,10 +7,12 @@ This project was a challange to refractor the starting code, ensuring that it st
 
 ## Usage
 please click the following link https://garrettbritton.github.io/Module-1/
+<br>
 For the usage of this program, you can review topics regarding search engine optimization, online reputation management, and social media marketing. There are buttons at the top of the page to that will skip to the selected chapter.
 
 ## Credits
 Source code received from coding-boot-camp at: 
+<br>
 https://github.com/coding-boot-camp/urban-octo-telegram
 
 ## License
